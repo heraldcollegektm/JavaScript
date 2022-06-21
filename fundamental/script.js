@@ -112,3 +112,18 @@ ohMyUndefinedYear = 1998;
 console.log(typeof ohMyUndefinedYear);
 
 console.log(typeof null);
+
+
+
+// ES6 (let and const)
+
+let age = 30;
+age = 31; // re-assigning the value (mutate the variables)
+
+
+const birthYear = 1998; // https://css-tricks.com/understanding-immutability-in-javascript/ 
+// birthYear = 1200;
+
+// Prior to es6
+var job = 'Teacher';
+job = 'Teacher';
