@@ -94,6 +94,8 @@ console.log(country);
 console.log(continent);
 console.log(population);
 
+
+// Data Types
 console.log(typeof true);
 console.log(typeof 23);
 console.log(typeof 4.41);
@@ -101,3 +103,12 @@ console.log(typeof 'Pravash');
 
 javascriptIsFun = 'YES!'
 console.log(typeof javascriptIsFun);
+
+let ohMyUndefinedYear;
+console.log(ohMyUndefinedYear);
+console.log(typeof ohMyUndefinedYear);
+
+ohMyUndefinedYear = 1998;
+console.log(typeof ohMyUndefinedYear);
+
+console.log(typeof null);
