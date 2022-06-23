@@ -6,12 +6,12 @@ function wakeUpUser() {
 let js = 'awesome';
 // if (js == 'awesome') alert("Javascript is Fun!")
 
-console.log(34 - 3 + 4 + 22);
-console.log("Pravash");
-console.log(23);
+// console.log(34 - 3 + 4 + 22);
+// console.log("Pravash");
+// console.log(23);
 
-let firstName = "Roshan";
-console.log(firstName);
+let firstName = "Pravash";
+// console.log(firstName);
 // console.log(firstName);
 // console.log(firstName);
 // console.log(firstName);
@@ -29,9 +29,9 @@ let job2 = 'Developer';
 // console.log(myFristJob, mySecondJob, job1, job2);
 
 if (myFristJob == 'Designer') {
-    console.log("Do you know figma?")
+    // console.log("Do you know figma?")
 } else {
-    console.log("Are you a developer?");
+    // console.log("Are you a developer?");
 }
 
 //Uncaught SyntaxError: Invalid or unexpected token
@@ -90,28 +90,28 @@ let country = "Nepal";
 let continent = "Asia";
 let population = 30208107;
 
-console.log(country);
-console.log(continent);
-console.log(population);
+// console.log(country);
+// console.log(continent);
+// console.log(population);
 
 
 // Data Types
-console.log(typeof true);
-console.log(typeof 23);
-console.log(typeof 4.41);
-console.log(typeof 'Pravash');
+// console.log(typeof true);
+// console.log(typeof 23);
+// console.log(typeof 4.41);
+// console.log(typeof 'Pravash');
 
 javascriptIsFun = 'YES!'
-console.log(typeof javascriptIsFun);
+// console.log(typeof javascriptIsFun);
 
 let ohMyUndefinedYear;
-console.log(ohMyUndefinedYear);
-console.log(typeof ohMyUndefinedYear);
+// console.log(ohMyUndefinedYear);
+// console.log(typeof ohMyUndefinedYear);
 
 ohMyUndefinedYear = 1998;
-console.log(typeof ohMyUndefinedYear);
+// console.log(typeof ohMyUndefinedYear);
 
-console.log(typeof null);
+// console.log(typeof null);
 
 
 
@@ -127,3 +127,26 @@ const birthYear = 1998; // https://css-tricks.com/understanding-immutability-in-
 // Prior to es6
 var job = 'Teacher';
 job = 'Teacher';
+
+
+
+
+
+/* Can you say "Celsius to Fahrenheit calculator"?
+(9 / 5) * temp + 32 
+What is the result when temp is 10?
+*/
+
+let temp = 10;
+console.log((9 / 5) * temp + 32);
+
+
+let color = "orange";
+if (color == "orange") {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+let $name = 'Martha';
+console.log($name + ", " + "you've won!");
